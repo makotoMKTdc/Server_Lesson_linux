@@ -1,0 +1,143 @@
+    1  ls
+    2  cd ~
+    3  ls
+    4  ls server_lesson
+    5  cd /server_lesson
+    6  cd server_lesson
+    7  ls
+    8  vi README.md
+    9  ls
+   10  cd README.md
+   11  ls README.md
+   12  cd server_lesson /README.md
+   13  ls
+   14  mkdir linux_practice2
+   15  ls
+   16  cd linux_practice2
+   17  touch gizumo{1..50}.md
+   18  ls
+   19  mkdir trash
+   20  ls
+   21  cd trash
+   22  cd ~
+   23  cd server_lesson
+   24  cd linux_practice2
+   25  ls
+   26  ls | grep -E '([20-40])' | xargs mv -t trash/
+   27  ls
+   28  cd trash
+   29  ls
+   30  ls | grep -E '([20-40])' | xargs mv -t linux_practice2/
+   31  rm grep -E '([20-40])'
+   32  ls
+   33  rm *.md
+   34  y
+   35  ls
+   36  ls
+   37  ~
+   38  cd ~
+   39  dc server_lesson
+   40  ls
+   41  cd linux_practice2
+   42* 
+   43  ls
+   44  rm *.md
+   45  ls
+   46  mkdir documents
+   47  ls
+   48  cd documents
+   49  touch gizumo{1..50}.md
+   50  ls
+   51* 
+   52  y
+   53  ls
+   54  touch gizumo{01..50}.md
+   55  ls
+   56* 
+   57* 
+   58* 
+   59  cd ~
+   60  cd linux_practice2
+   61  ls
+   62  cd cd linux_practice2
+   63  cd linux_practice2
+   64  ls
+   65  cd server_lesson
+   66  cd linux_practice2
+   67  ls
+   68  touch .gitignore
+   69  ls
+   70  ls .gitignore
+   71  ls
+   72  cd documents
+   73  ls
+   74  ls | grep -E '([20-40])'
+   75  ls | grep -E '([20-40])'
+   76  ls | grep -E '([2-4])'
+   77  ls | grep -E '([20-40])'
+   78  ls | grep -E '([2-4][0-9])'
+   79  ls | grep -E '([2-3][0-9])'
+   80  ls | grep -E '([2-3][0-9]|40)'
+   81  ls | grep -E '([2-3][0-9]|40)'ls | xargs mv -t trash/
+   82  ls
+   83  ls | grep -E '([2-3][0-9]|40)'ls | xargs mv -t ../trash/
+   84  cd ~
+   85  cd server_lesson
+   86  cd linux_practice2
+   87  ls
+   88  ls | grep -E '([2-3][0-9]|40)'ls | xargs mv -t ../trash
+   89  ls | grep -E '([2-3][0-9]|40)'ls | xargs mv -t ../trash/
+   90  cd documents
+   91  ls | grep -E '([2-3][0-9]|40)'ls | xargs mv -t ../trash/
+   92  ls | grep -E '([2-3][0-9]|40)'ls | xargs mv -t ../trash
+   93  ls | grep -E '([2-3][0-9]|40)'ls | xargs mv../trash
+   94  ls | grep -E '([2-3][0-9]|40)'ls | xargs mv ../trash
+   95  cd ../
+   96  ls
+   97  ls | grep -E '([2-3][0-9]|40)'ls | xargs mv trash
+   98  ls | grep -E '([2-3][0-9]|40)'ls | xargs mv -t trash
+   99  ls | grep -E '([2-3][0-9]|40)' | xargs mv -t trash
+  100  ls | grep -E '([2-3][0-9]|40)'
+  101  cd documents/
+  102  ls | grep -E '([2-3][0-9]|40)'
+  103  ls | grep -E '([2-3][0-9]|40)' | xargs mv -t trash
+  104  ls | grep -E '([2-3][0-9]|40)' | xargs mv -t ../trash
+  105  ls
+  106  cd ../trash
+  107  ls
+  108  cd ../
+  109  cd documents/
+  110  ls 0-al
+  111  ls 
+  112  ls ../trash
+  113  ls | grep -E '([2-3][0-9]|40)'
+  114  cd ../
+  115  ls
+  116  ls -al
+  117  vi .gitignore 
+  118  cat .gitignore 
+  119  cat .gitignore 
+  120  history 300
+  121  2.md
+  122  gizumo23.md
+  123  gizumo24.md
+  124  gizumo25.md
+  125  gizumo26.md
+  126  gizumo27.md
+  127  gizumo28.md
+  128  gizumo29.md
+  129  gizumo30.md
+  130  gizumo31.md
+  131  gizumo32.md
+  132  gizumo33.md
+  133  gizumo34.md
+  134  gizumo35.md
+  135  gizumo36.md
+  136  gizumo37.md
+  137  gizumo38.md
+  138  gizumo39.md
+  139  gizumo40.md
+  140  [root@6ce89d0d1dca documents]# ls | grep -E '([2-3][0-9]|40)' | xargs mv -t trash
+  141  mv: failed to access 'trash': No such file or directory
+  142  history 300
+  143  history 300 > exec_command.log
